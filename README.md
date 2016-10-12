@@ -1,5 +1,5 @@
 # Efficient-Sudoku-Solver
-This is a c++ Sudoku solver that used recursive backtracking and forward-checking with minimum remaining values to quickly solve the puzzle.
+This is a c++ Sudoku solver that uses recursive backtracking and forward-checking with minimum remaining values to quickly solve the puzzle.
 
 
 

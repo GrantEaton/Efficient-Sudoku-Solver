@@ -283,7 +283,7 @@ bool solveSudoku(vector<vector<char>> board, vector<vector<map<int, int>>> board
 
 int main(int argc, char* argv[])
 {
-	//cout << argv[1];
+	cout << argv[1];
 	
 	//read in the sodoku file
 	fstream sudokuFile;
@@ -344,7 +344,7 @@ int main(int argc, char* argv[])
 	clock_t end = clock();
 	double elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
 
-	//cout << "\nExecution time: " << elapsed_secs << " seconds.\n";
+	cout << "\nExecution time: " << elapsed_secs << " seconds.\n";
 	
 	
 

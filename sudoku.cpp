@@ -292,7 +292,7 @@ int main(int argc, char* argv[])
 		cout << "\nThe file does not exist";
 		return 0;
 	}
-	sudokuFile.open("9x9a.txt", fstream::in);
+	sudokuFile.open(argv[1], fstream::in);
 	
 	//first two numbers on the file represent the row x column
 	sudokuFile >> row;
